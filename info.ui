@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>328</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSplitter" name="splitter_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>81</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="height">
+     <property name="text">
+      <string>height:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mass">
+     <property name="text">
+      <string>mass:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="hairColor">
+     <property name="text">
+      <string>hair_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="skinColor">
+     <property name="text">
+      <string>skin_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="eyeColor">
+     <property name="text">
+      <string>eye_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="bithYear">
+     <property name="text">
+      <string>birth_year:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="gender">
+     <property name="text">
+      <string>gender:</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>81</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>height:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>mass:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>hair_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>skin_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>eye_color:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>birth_year:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>gender:</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
